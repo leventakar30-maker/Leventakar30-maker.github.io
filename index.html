@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My GitHub Page</title>
     <style>
+        body {
+            background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            text-shadow: 0 0 10px #00ff88;
+        }
         .github-link {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            opacity: 0.25;
+            transition: opacity 0.3s ease;
+            z-index: 100;
+        }
+        .github-link:hover {
+            opacity: 1;
+        }
+        .github-link a {
             color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .github-link a:hover {
+            text-decoration: underline;
+            text-shadow: 0 0 10px white;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <a class="github-link" href="https://github.com/leventakar30-maker">My GitHub</a>
+    <h1>Hello World</h1>
+    <div class="github-link">
+        <a href="https://github.com/leventakar30-maker" target="_blank">@leventakar30-maker</a>
+    </div>
 </body>
 </html>
