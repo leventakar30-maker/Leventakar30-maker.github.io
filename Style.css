@@ -3,6 +3,6 @@ h1{
     color:blue
 }
 image{
-    Border-radius %50;
-    Border: 5px  solid white 
+    Border-radius: 50%;
+    Border: 5px solid white;
 }
