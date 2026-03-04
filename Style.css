@@ -2,3 +2,7 @@ h1{
     font-family:Verdana,Geneva,sans-serif;
     color:blue
 }
+image{
+    Border-radius %50;
+    Border: 5px  solid white 
+}
